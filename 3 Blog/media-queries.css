@@ -1,0 +1,31 @@
+@media (max-width:700px) {
+    .img-2 {
+        background-position: 60% 30%;
+
+    }
+}
+
+@media (max-width:600px) {
+    main section {
+        grid-template-columns: 0% 100%;
+    }
+
+}
+
+@media (max-width: 979px)  {         
+
+div.card-group .destacado {
+    display: flex;
+    flex-direction: column;
+   margin-right: 0;
+  }
+
+ .card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+}
+
+
