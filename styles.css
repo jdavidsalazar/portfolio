@@ -55,7 +55,7 @@ nav ul li a:hover{
 	color: #f9004d;
 	transition: .4s;
 }
-.button {
+.content .button-1 {
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -64,6 +64,7 @@ nav ul li a:hover{
 	padding: 10px 25px;
 	border-radius: 30px;
 	transition: transform .4s; 
+	font-size: 3rem;
 }
 .button:hover{
 	transform: scale(1.2);
@@ -151,7 +152,7 @@ h4{
 	margin-bottom: 45px;
 	text-justify: center	;
 }	
-button{
+.button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -161,7 +162,7 @@ button{
 	border-radius: 30px;
 	transition: .4s; 
 }
-button:hover{
+.button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
@@ -332,7 +333,7 @@ h5{
 	color: white;
 	font-size: 16px;
 	padding: 16px 45px;
- }
+ }  
 
 .overlay {
 	opacity: 0;
@@ -376,6 +377,7 @@ footer p:nth-child(1){
 	color: white;
 	margin-bottom: 20px;
 	font-weight: bold;
+	padding-top: 2rem;
 }
 footer p:nth-child(2){
 	color: white;
@@ -460,8 +462,8 @@ display: inline-block;
 nav ul li a{
 color: white;
 text-decoration: none;
-font-weight: bold;
 text-transform: capitalize;
+font-size: 2rem;
 }
 nav ul li a:hover{
 color: #f9004d;
@@ -551,7 +553,7 @@ font-size: 20px;
 	font-size: 18px;
 	margin-bottom: 45px;
 }
-button{
+.button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -560,6 +562,7 @@ button{
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: .4s; 
+	font-size: 2rem;
 }
 button:hover{
 	background-color: transparent;
@@ -744,21 +747,7 @@ h5{
 	opacity: 1;
 }
 
-footer .button-two{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-footer.button-two:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-}
+
 footer{
 	position: relative;
 	width: 100%;
