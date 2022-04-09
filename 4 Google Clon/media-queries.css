@@ -1,12 +1,18 @@
 @media (max-width: 450px) {
+
+    body {
+        width: auto ;
+    }
    
+ 
+
     main .main-input {
-        width: 430px;
+        width: 380px;
         margin: 0 auto;
         margin-bottom: 35px;
     }
     main .main-input-container {
-        width: 425px;
+        width: 375px;
         border-radius: 100px;
         border: 1px solid #dfe1e5;
         display: flex;
@@ -14,12 +20,14 @@
         align-items: center;
     }
     main .main-input input {
-        width: 350px;
+        width: 300px;
         height: 40px;
         border: none;
         outline: none;
     }
 
-
+    .footer-right {
+        display: hidden;
+    }
 
 }
