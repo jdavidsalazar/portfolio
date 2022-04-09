@@ -178,6 +178,7 @@ main {
 
 .grid-ctn {
   display: flex;
+  height: auto;
 }
 
 .servicios-grid {
