@@ -443,17 +443,23 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding-top: 45px;
-padding-left: 8%;
-padding-right: 8%;
+padding-left: 0;
+padding-right: 12%;
 }
 .logo{
 color: white;
 font-size: 35px;
 letter-spacing: 1px;
 cursor: pointer;
+margin-left: 1.5rem;
+
 }
 span{
 color: #f9004d;
+}
+
+nav ul {
+	margin-left: 9rem;
 }
 
 nav ul li{
@@ -465,7 +471,7 @@ nav ul li a{
 color: white;
 text-decoration: none;
 text-transform: capitalize;
-font-size: 2rem;
+font-size: 1.8rem;
 }
 nav ul li a:hover{
 color: #f9004d;
