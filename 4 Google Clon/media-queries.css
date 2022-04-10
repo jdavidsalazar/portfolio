@@ -26,8 +26,8 @@
         outline: none;
     }
 
-    .footer-right {
-        display: hidden;
-    }
+   footer {
+       display: flex;
+   }
 
 }

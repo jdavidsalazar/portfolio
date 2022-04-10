@@ -134,8 +134,10 @@ main .main-buttons button:hover {
     box-shadow: 0 1px 1px #000001;
     color: #000001
    
+}
 
-
+main {
+    margin-bottom: 7rem;
 }
 
 footer {
@@ -147,6 +149,7 @@ footer {
     grid-template-columns: 1fr 1fr;  */
     display: flex;
     justify-content: space-between;
+    flex-flow: wrap;
     align-items: center;
     font-size: 13px;
     background-color: #f2f2f2;
