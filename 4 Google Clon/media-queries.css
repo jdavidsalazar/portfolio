@@ -26,8 +26,23 @@
         outline: none;
     }
 
-   footer {
+    main .main-logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2.5rem;
+    }
+
+
+    main .main-buttons {
+       padding-right: 7rem;
+    }
+   
+   
+    footer {
        display: flex;
    }
+
+
+
 
 }
