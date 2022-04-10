@@ -103,7 +103,9 @@ h4{
 	flex-flow: wrap;
 }
 
-
+.img.ctn {
+	overflow: hidden;
+}
 
 .about img{
 	display: flex;
@@ -113,7 +115,7 @@ h4{
 	padding-bottom: 2rem;
 	margin-left: 2rem;
 	overflow: hidden;
-	object-fit: contain;
+	object-fit: cover;
 }
 .about-text{
 	width: 550px;
@@ -432,7 +434,7 @@ footer p:nth-child(2){
 .content {
     position: absolute;
     top: 50%;
-    left:8%;
+    left:7%;
     transform: translateY(-50%);
 }		
 
@@ -510,6 +512,7 @@ h4{
 color: #fcfc;
 letter-spacing: 2px;
 font-size: 20px;
+padding-bottom: 1rem;
 }
 
 .about{
@@ -716,6 +719,7 @@ h5{
 	  color: rgb(206, 202, 202);
 	  padding-top: 20px;
 	  font-weight: bolder;
+	  font-size: 2rem;
   }
 
 .middle {
