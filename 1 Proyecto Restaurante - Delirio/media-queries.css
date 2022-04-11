@@ -19,6 +19,18 @@
 
 
 
+@media (max-width:600px) {
+    .footer-grid {
+        display: inline-block;
+      }
+
+    .map {
+        margin-left: 4rem;
+    }
+
+}
+
+
 @media (max-width:500px) {
 
     body {
@@ -31,16 +43,16 @@
         align-items: center;  
   }
 
-}
 
-@media (max-width:600px) {
-    .footer-grid {
-        display: inline-block;
-      }
+  .servicios-ctn {
+    width: 100%;  
+    height: auto;
+  }
 
-    .map {
-        margin-left: 4rem;
-    }
+  .servicios-grid {
+      width: 100%;
+      height: auto;
+  }
 
 }
 
